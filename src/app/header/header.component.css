@@ -1,0 +1,36 @@
+.header{
+    background-color: #1ABC9C;
+}
+.avatar{
+    width: 15rem;
+}
+.slider{
+    top:20%
+}
+.slider h1{
+    font-size: 4rem;
+}
+.slider p{
+    font-size: 1.5rem;
+}
+.slider i{
+    font-size: 2rem;
+}
+.slider-icon::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: -140px;
+    top: 30%;
+    width: 120px;
+    height: 4px;
+} 
+.slider-icon::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    right: -140px;
+    top: 30%;
+    width: 120px;
+    height: 4px;
+} 

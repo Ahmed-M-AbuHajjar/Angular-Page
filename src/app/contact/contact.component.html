@@ -1,0 +1,45 @@
+<section class="contact py-5 mb-5" id="contact" >
+    <div class="container">
+        <div class="text-center">
+        <h2 class="text-uppercase text pt-5">contact me</h2>
+        <span class="position-relative slider-icon-dark"><i class="fa-solid fa-star"></i></span>
+    </div>
+    <div class="offset-2">
+        <div class="mb-3">
+            
+            <input type="text"  id="name" placeholder="Name">
+            <div class="empty-input text-danger d-none" id="name-validate">
+              <ul><li>Please enter your name.</li></ul>
+            </div>
+          </div>
+          <div class="mb-3">
+            
+            <input type="email"  id="email" placeholder="Email Address" (input)="emailRegex()">
+            <div class="empty-input text-danger d-none" id="email-validate">
+              <ul><li>Please enter your email address.</li></ul>
+              
+            </div>
+            <div class="notvalidMail text-danger d-none" id="email-rgx">
+              <ul><li>Not a valid email address</li></ul>
+            </div>
+          </div>
+          <div class="mb-3">
+            
+            <input type="text"  id="phone" placeholder="Phone Number">
+            <div class="empty-input text-danger d-none" id="phone-validate">
+              <ul><li>Please enter your phone number.</li></ul>
+            </div>
+          </div>
+          <div class="mb-3">
+            
+            <textarea  id="message" placeholder="Message" rows="7"></textarea> 
+            <div class="empty-input text-danger d-none" id="message-validate">
+              <ul><li>Please enter a message.</li></ul>
+            </div> 
+        </div>
+        <button type="button" class="btn btn-primary" (click)=" validateForm()">Send</button>
+    </div>
+          
+        
+    </div>
+</section>

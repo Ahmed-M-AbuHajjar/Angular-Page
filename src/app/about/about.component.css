@@ -1,0 +1,35 @@
+.about{
+    background-color: #1abc9c;
+}
+.about h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about .slider-icon::before{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    left: -140px;
+    top: 50%;
+    width: 120px;
+    height: 4px;
+}
+.about .slider-icon::after{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    width: 120px;
+    height: 4px;
+}
+.about .slider-icon{
+    font-size: 2rem;
+}
+.about-text{
+    max-width: 45rem;
+    margin: auto;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 400
+}

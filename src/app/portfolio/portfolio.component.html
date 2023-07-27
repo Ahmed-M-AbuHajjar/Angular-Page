@@ -1,0 +1,46 @@
+<section class="portfolio text-center mb-5" id="portfolio">
+    <div class="container">
+        <h2 class="text-uppercase text pt-5">portfolio</h2>
+        <span class="position-relative slider-icon-dark"><i class="fa-solid fa-star"></i></span>
+        <div class="portfolio-cards pt-4">
+            <div class="row row-cols row-cols-md-3 g-5">
+                <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/cabin.png')" (click)="cardTitle('log cabin')">
+                  <div class="card position-relative">
+                    <img src="assets/cabin.png" class="card-img-top" alt="cabin">
+                    <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                  </div>
+                </div>
+                <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/cake.png')" (click)="cardTitle('tasty cake')">
+                  <div class="card position-relative">
+                    <img src="assets/cake.png" class="card-img-top" alt="cake">
+                    <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                  </div>
+                </div>
+                <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/circus.png')" (click)="cardTitle('circus tent')">
+                  <div class="card position-relative">
+                    <img src="assets/circus.png" class="card-img-top" alt="circus">
+                    <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                  </div>
+                </div>
+                <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/game.png')" (click)="cardTitle('controller')">
+                  <div class="card position-relative">
+                    <img src="assets/game.png" class="card-img-top" alt="game">
+                    <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                  </div>
+                </div>
+                <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/safe.png')" (click)="cardTitle('locked safe')">
+                    <div class="card position-relative">
+                      <img src="assets/safe.png" class="card-img-top" alt="safe">
+                      <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                    </div>
+                  </div>
+                  <div class="col" (click)="showCard()" (click)="showCurrentPicture('assets/submarine.png')" (click)="cardTitle('submarine')">
+                    <div class="card position-relative">
+                      <img src="assets/submarine.png" class="card-img-top" alt="submarine">
+                      <div class="portfolio-slider d-none position-absolute h-100 w-100 top-0 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white"></i></div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+</section>
